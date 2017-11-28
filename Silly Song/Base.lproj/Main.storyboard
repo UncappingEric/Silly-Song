@@ -26,7 +26,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silly Song!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yd0-3h-qc9">
                                 <rect key="frame" x="48" y="33" width="278" height="190"/>
-                                <color key="backgroundColor" red="0.96624609314411414" green="0.99122715815698981" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.70820514896373055" green="0.45795572984391281" blue="0.49316866371431545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="190" id="Bjt-8a-OGI"/>
                                     <constraint firstAttribute="width" constant="278" id="fyB-CA-Df8"/>
@@ -56,7 +56,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.84856222950470928" blue="0.67364491616353717" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.395103968834979" green="0.77568278869633167" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="yd0-3h-qc9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="13" id="1eS-fF-d2u"/>
                             <constraint firstItem="yd0-3h-qc9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerXWithinMargins" id="4HI-Y9-D9H"/>
