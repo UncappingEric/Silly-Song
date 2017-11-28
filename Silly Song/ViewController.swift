@@ -30,11 +30,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var lyricsView: UITextView!
     
+    let bananaFanaTemplate = [
+        "<FULL_NAME>, <FULL_NAME>, Bo B<SHORT_NAME>",
+        "Banana Fana Fo F<SHORT_NAME>",
+        "Me My Mo M<SHORT_NAME>",
+        "<FULL_NAME>"].joined(separator: "\n")
 
+    // MARK: Lifecylce Functions
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         nameField.delegate = self
     }
+    
+    // MARK: Button Actions
 
     @IBAction func reset(_ sender: Any) {
         nameField.text = ""
@@ -47,12 +56,6 @@ class ViewController: UIViewController {
             lyricsView.text = lyrics
         }
     }
-    
-    let bananaFanaTemplate = [
-        "<FULL_NAME>, <FULL_NAME>, Bo B<SHORT_NAME>",
-        "Banana Fana Fo F<SHORT_NAME>",
-        "Me My Mo M<SHORT_NAME>",
-        "<FULL_NAME>"].joined(separator: "\n")
     
 }
 
